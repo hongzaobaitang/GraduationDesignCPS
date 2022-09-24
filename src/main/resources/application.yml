@@ -1,11 +1,23 @@
 spring:
+  cloud:
+    alicloud:
+      access-key: LTAI5tCJZPcWfqoR2PRbWz2n
+      secret-key: luYvP89FPQj1tN9p3oWS6Spcpc9EeH
+      oss:
+        endpoint: oss-cn-hangzhou.aliyuncs.com
+        bucket: cspzousir
+      msc:
+        host: http://dingxin.market.alicloudapi.com
+        path: /dx/sendSms
+        appcode: 95847b5642284d27af6eeb133eb76872
+
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   thymeleaf:
     cache: false
   datasource:
     username: root
-    password: zw1117..
+#    password: 001117
     url: jdbc:mysql://localhost:3306/csp?createDatabaseIfNotExist=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
 
@@ -20,3 +32,4 @@ mybatis-plus:
 
 server:
   port: 10000
+
