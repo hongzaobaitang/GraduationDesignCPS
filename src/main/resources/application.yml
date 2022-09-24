@@ -1,0 +1,22 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  datasource:
+    username: root
+    password: zw1117..
+    url: jdbc:mysql://localhost:3306/csp?createDatabaseIfNotExist=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  config-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+
+server:
+  port: 10000
