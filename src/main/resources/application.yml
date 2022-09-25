@@ -1,8 +1,8 @@
 spring:
   cloud:
     alicloud:
-      access-key: LTAI5tCJZPcWfqoR2PRbWz2n
-      secret-key: luYvP89FPQj1tN9p3oWS6Spcpc9EeH
+      access-key: 
+      secret-key: 
       oss:
         endpoint: oss-cn-hangzhou.aliyuncs.com
         bucket: cspzousir
