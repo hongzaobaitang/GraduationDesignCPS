@@ -4,8 +4,8 @@ spring:
       access-key: 
       secret-key: 
       oss:
-        endpoint: oss-cn-hangzhou.aliyuncs.com
-        bucket: cspzousir
+        endpoint: 
+        bucket: 
       msc:
         host: http://dingxin.market.alicloudapi.com
         path: /dx/sendSms
